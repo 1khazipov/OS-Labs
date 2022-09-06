@@ -1,0 +1,122 @@
+    1  ls
+    2  gcc
+    3  exit
+    4  cd ~
+    5  ls
+    6  exit
+    7  ls
+    8  ~
+    9  cd~
+   10  cd ~
+   11  ls
+   12  cd --
+   13  ls
+   14  exit
+   15  cd ~
+   16  mkdir ~/week01
+   17  cd week01
+   18  list tail "
+   19  list tail -r -name - "gcc"
+   20  find tail -r -name "*gcc*"
+   21  find -name "gcc"
+   22  find find /usr/bin -name "gcc"
+   23  cd /usr/bin
+   24  gcc
+   25  find -name "gcc"
+   26  find name "*gcc"
+   27  find -name "*gcc"
+   28  exit
+   29  cd ~
+   30  ls
+   31  rm week01
+   32  cd -r week01
+   33  rm -r week01
+   34  ls
+   35  exit
+   36  cd ~
+   37  mkdir week01
+   38  ls
+   39  ls | tail
+   40  exit
+   41  ls
+   42  cd ~
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  ls
+   48  cd home
+   49  la
+   50  ls
+   51  cd ..
+   52  cd root
+   53  la
+   54  ls
+   55  exit
+   56  ls
+   57  ls usr/bin | grep gcc | sort -n -r | tail -n
+   58  ls usr/bin | grep gcc | sort -n -r | tail -n 5
+   59  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ex1.txt
+   60  ls usr/bin | grep gcc | sort -n -r | tail -n 5
+   61  touch ~/week01/ex1.txt
+   62  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ~week01/ex.txt 
+   63  ls | grep Do |tail -n 5
+   64  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ~week01/ex.txt 
+   65  cd ~/week01
+   66  ls
+   67  open ex1.txt
+   68  open "ex1.txt"
+   69  cat ex1.txt
+   70  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ~week01/ex.txt 
+   71  exit
+   72  cd ~/week01
+   73  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ~week01/ex.txt 
+   74  ls usr/bin | grep gcc | sort -n -r | tail -n 5 
+   75  cd ..
+   76  ls usr/bin | grep gcc | sort -n -r | tail -n 5 
+   77  cd ..
+   78  ls usr/bin | grep gcc | sort -n -r | tail -n 5 
+   79  ls usr/bin | grep gcc | sort -n -r | tail -n 5  ex.txt
+   80  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ~week01/ex.txt 
+   81  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ex.txt 
+   82  cat ex1.txt
+   83  ls usr/bin | grep gcc | sort -n -r | tail -n 5 ex.txt 
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd ~
+   88  ls
+   89  cd ..
+   90  ls
+   91  cd ~
+   92  ls
+   93  cd ..
+   94  ls
+   95  cd rooy
+   96  cd root
+   97  ls
+   98  cd home
+   99  ls
+  100  cd /
+  101  cd /home
+  102  ls
+  103  cd ~
+  104  rm -r week01
+  105  clear
+  106  mkdir ~/week01
+  107  cd week01
+  108  ls /usr/bin
+  109  ls /usr/bin | sort -r
+  110  ls /usr/bin | sort -r | grep "gcc"
+  111  ls /usr/bin | sort -r | grep "gcc" | tail -n 5
+  112  ls /usr/bin | sort -r | grep "gcc" | tail -n 5 > ex1.txt
+  113  ls
+  114  nano ex1.txt
+  115  apt install
+  116  apt install nano
+  117  nano ex1.txt
+  118  ls /usr/bin | sort -r | grep "gcc" | tail -n 5 > ex1.txt
+  119  nano ex1.sh
+  120  ls
+  121  history
+  122  history > ex2.txt
