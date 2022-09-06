@@ -12,10 +12,10 @@ opt
 mnt
 media
 var
-run
 sys
 proc
 dev
-root
+run
 etc
 tmp
+root
