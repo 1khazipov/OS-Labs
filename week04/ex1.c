@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include "time.h"
+#include <sys/wait.h>
 
 int main() {
     if (fork() == 0) {
@@ -9,7 +10,7 @@ int main() {
         printf("First child process: pid: %d parent pid: %d\n", getpid(), getppid());
         clock_t end_t_2 = clock();
         printf("First child time: %f ms\n", (double) (end_t_2 - start_t_2));
-        return EXIT_SUCCESS;
+        exit(EXIT_SUCCESS);
     }
     else {
         if (fork() == 0) {
@@ -18,7 +19,7 @@ int main() {
             printf("Second child process: pid: %d parent pid: %d\n", getpid(), getppid());
             end_t_3 = clock();
             printf("Second child time: %f ms\n", (double) (end_t_3 - start_t_3));
-            return EXIT_SUCCESS;
+            exit(EXIT_SUCCESS);
         }
     }
     clock_t start_t_1, end_t_1;

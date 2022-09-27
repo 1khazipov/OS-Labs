@@ -16,7 +16,7 @@ int main() {
             cmd[strlen(cmd) - 1] = '\0';
         if (fork() == 0) {
             system(cmd);
-            return EXIT_SUCCESS;
+            exit(EXIT_SUCCESS);
         }
         wait(NULL);
     }

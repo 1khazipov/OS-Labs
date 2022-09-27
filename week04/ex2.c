@@ -30,16 +30,15 @@ int main(void){
     for (int i = 0; i < 120; i++) {
         v[i] = rand() % 100;
     }
-    int k, n;
+    int n;
     printf("Type number of processes: ");
-    scanf("%d", &k);
-    n = k;
+    scanf("%d", &n);
 
     for (int i = 0; i < n; i++) {
         if (fork() == 0) {
             int result = dotprod(u, v, 120 * i / n, 120 * (i + 1) / n);
             fprintf(file, "%d\n", result);
-            return EXIT_SUCCESS;
+            exit(EXIT_SUCCESS);
         }
     }
     wait(NULL);
