@@ -30,9 +30,10 @@ int main(void){
     for (int i = 0; i < 120; i++) {
         v[i] = rand() % 100;
     }
-    int n;
+    int k, n;
     printf("Type number of processes: ");
-    scanf("%d", &n);
+    scanf("%d", &k);
+    n = k;
 
     for (int i = 0; i < n; i++) {
         if (fork() == 0) {
@@ -50,7 +51,7 @@ int main(void){
         fscanf(file, "%d", &result);
         sum += result;
     }
-    printf("%d\n", sum);
+    printf("%d", sum);
     fclose(file);
     return EXIT_SUCCESS;
 
