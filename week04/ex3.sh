@@ -1,4 +1,5 @@
 gcc -o comp ex3.c
-echo "3" > ./comp
+./comp 3
 sleep 5
-echo "5" > ./comp
+gcc -o comp ex3.c
+./comp 5

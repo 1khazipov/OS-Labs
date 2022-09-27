@@ -18,6 +18,6 @@ int main() {
             system(cmd);
             exit(EXIT_SUCCESS);
         }
-        wait(NULL);
+        while (wait(NULL) != -1) {}
     }
 }

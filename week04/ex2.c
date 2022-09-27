@@ -41,7 +41,7 @@ int main(void){
             exit(EXIT_SUCCESS);
         }
     }
-    wait(NULL);
+    while (wait(NULL) != -1) {}
     fclose(file);
     file = fopen("temp.txt", "r");
     int sum = 0;

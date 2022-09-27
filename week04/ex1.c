@@ -24,7 +24,7 @@ int main() {
     }
     clock_t start_t_1, end_t_1;
     start_t_1 = clock();
-    wait(NULL);
+    while (wait(NULL) != -1) {}
     printf("Main process: pid: %d parent pid: %d\n", getpid(), getppid());
     end_t_1 = clock();
     printf("Main process time: %f ms\n", (double) (end_t_1 - start_t_1));

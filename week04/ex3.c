@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main(void){
+int main(int argc, char* argv[]){
     int n;
     printf("Type number of processes: ");
-    scanf("%d", &n);
+    sscanf(argv[1], "%d", &n);
 
     for (int i = 0; i < n; i++) {
         fork();
@@ -13,4 +13,3 @@ int main(void){
     }
     return EXIT_SUCCESS;
 }
-
