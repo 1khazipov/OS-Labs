@@ -1,0 +1,50 @@
+for n = 3 I got 2^3 = 8 processes:
+ |-+= 62676 alberthazipov /Users/albertkhazipov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/MacOS/clion
+ | |-+= 25774 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | |-+- 25777 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | |-+- 25795 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | \--- 25823 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | \--- 25822 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | |-+- 25796 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | \--- 25824 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | \--- 25825 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+
+for n = 5 I got 2^5 = 32 processes:
+ |-+= 62676 alberthazipov /Users/albertkhazipov/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/MacOS/clion
+ | |-+= 21896 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | |-+- 21949 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | |-+- 21999 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | |-+- 22027 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | | |-+- 22092 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | | | \--- 22132 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | | \--- 22129 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | |-+- 22087 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | | \--- 22125 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | \--- 22121 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | |-+- 22026 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | |-+- 22089 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | | \--- 22123 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | \--- 22122 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | |-+- 22086 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | \--- 22126 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | \--- 22120 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | |-+- 22000 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | |-+- 22028 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | |-+- 22090 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | | \--- 22130 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | \--- 22128 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | |-+- 22088 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | \--- 22124 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | \--- 22119 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | |-+- 22029 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | |-+- 22091 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | | \--- 22131 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | \--- 22127 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | |-+- 22093 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | | \--- 22133 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+ | | \--- 22134 alberthazipov /Users/albertkhazipov/CLionProjects/new/cmake-build-debug/ex3
+
+
+This means that numebr of processes equals to two
+in the power of number of loop iterations because
+every child creates one more child process.
