@@ -1,0 +1,29 @@
+664579
+
+real	0m5.539s
+user	0m5.335s
+sys	0m0.035s
+
+664579
+
+real	0m3.278s
+user	0m5.236s
+sys	0m0.006s
+
+664579
+
+real	0m1.819s
+user	0m5.477s
+sys	0m0.016s
+
+664579
+
+real	0m1.258s
+user	0m8.786s
+sys	0m0.008s
+
+664579
+
+real	0m1.203s
+user	0m9.400s
+sys	0m0.016s

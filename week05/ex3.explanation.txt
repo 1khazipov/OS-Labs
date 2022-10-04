@@ -1,0 +1,6 @@
+The more threads, the higher the speed becomes,
+but it also takes time to create threads and
+add up the results of all the threads,
+so with large numbers the growth is not as high.
+The result doesn't change with increasing of threads,
+therefore it is correct.

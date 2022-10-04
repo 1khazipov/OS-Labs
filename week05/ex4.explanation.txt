@@ -1,0 +1,5 @@
+The result is the same and the execution time
+is not much different from the third task,
+but we should consider that in the fourth task
+time is also spent on operations in mutex,
+while other threads are waiting.
