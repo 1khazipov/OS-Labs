@@ -42,6 +42,8 @@ int main() {
         printf("%d ", a1[i]);
     }
     printf("\n");
+    
+    free(a1);
 
     //Done with array now, done with program :D
 
