@@ -1,0 +1,2 @@
+2^16 / (8 * 2^10) = 2^3, so for a single-level
+linear page table 3 bits remain.

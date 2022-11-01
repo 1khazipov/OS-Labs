@@ -1,0 +1,2 @@
+The physical address designates a spot in the memory. 
+The virtual address doesn't physically exist in the memory.
