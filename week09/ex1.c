@@ -7,23 +7,6 @@ typedef struct Page {
     int bits[8];
 } Page;
 
-void shift_bits(Page * page) {
-    for(int i = 0; i < 8 - 1; i++)
-        page->bits[i] = page->bits[i + 1];
-    page->bits[8 - 1] = 0;
-}
-
-void shift_all_bits(Page * memory, int frames_count, int except_id) {
-    for(int i = 0; i < frames_count - 1; i++)
-        if (i != except_id && memory[i].id != -1)
-            shift_bits(&memory[i]);
-}
-
-void add_to_bits(Page* page, int value) {
-    shift_bits(page);
-    page->bits[8 - 1] = value;
-}
-
 int main(int argc, char *argv[]) {
     if (argc <= 1) return 0;
 
@@ -76,8 +59,17 @@ int main(int argc, char *argv[]) {
             i = min_i;
             array[i] = curPage;
         }
-        add_to_bits(&array[i], 1);
-        shift_all_bits(array, frames, i);
+
+        for(int j = 0; j < 7; j++)
+            array[i].bits[j] = array[i].bits[j + 1];
+        array[i].bits[7] = 1;
+
+        for(int j = 0; j < frames - 1; j++)
+            if (j != i && array[j].id != -1) {
+                for (int k = 0; k < 7; k++)
+                    array[i].bits[k] = array[i].bits[k + 1];
+                array[i].bits[7] = 1;
+            }
     }
 
     printf("frames: %d, hits: %d, misses: %d, ratio: %f ", frames, hits, misses, (double) hits / (double) misses);
