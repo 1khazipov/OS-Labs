@@ -1,0 +1,7 @@
+In order to enhance the Ratio,
+we must place more requests on a single page.
+As a result, there will be fewer errors and more hits.
+
+We must require fewer repeats of each page
+and a different number of pages in order to reduce
+the Ratio and the consequent amount of page errors.
