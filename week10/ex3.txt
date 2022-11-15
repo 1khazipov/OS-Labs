@@ -1,0 +1,8 @@
+-rw-r--r-- 1 root root 7 Nov 15 12:44 _ex3.txt
+-rw-r--r-- 1 root root 7 Nov 15 12:44 _ex3.txt
+-rwxr--rwx 1 root root 7 Nov 15 12:44 _ex3.txt
+-rwxrwxrwx 1 root root 7 Nov 15 12:44 _ex3.txt
+
+600 denotes owner-only reading and writing.
+775 denotes read, write, and execute rights for all users except for public writers.
+777 denotes everyone's right to read, write, and execute.

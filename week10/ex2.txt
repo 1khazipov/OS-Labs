@@ -1,0 +1,2 @@
+./_ex2.txt
+/ex3.c/OS-Labs/week01/file.txt
