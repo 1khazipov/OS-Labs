@@ -1,0 +1,35 @@
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : dma1
+  0000-0000 : pic1
+  0000-0000 : timer0
+  0000-0000 : timer1
+  0000-0000 : keyboard
+  0000-0000 : keyboard
+  0000-0000 : rtc0
+  0000-0000 : dma page reg
+  0000-0000 : pic2
+  0000-0000 : dma2
+  0000-0000 : fpu
+  0000-0000 : pnp 00:00
+  0000-0000 : pnp 00:00
+  0000-0000 : serial
+  0000-0000 : serial
+  0000-0000 : pnp 00:00
+    0000-0000 : ACPI PM1a_EVT_BLK
+    0000-0000 : ACPI PM1a_CNT_BLK
+  0000-0000 : ACPI PM_TMR
+  0000-0000 : pnp 00:00
+0000-0000 : PCI conf1
+0000-0000 : PCI Bus 0000:00
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : 0000:00:01.0
+    0000-0000 : virtio-pci-legacy
+  0000-0000 : 0000:00:02.0
+    0000-0000 : virtio-pci-legacy
+  0000-0000 : 0000:00:03.0
+    0000-0000 : virtio-pci-legacy
+  0000-0000 : 0000:00:04.0
+    0000-0000 : virtio-pci-legacy
+dma1, or direct memory access, is a technology that enables specific devices to access RAM without the need for a CPU.
+pic1 shows a peripheral interface controller, a type of microcontroller utilized in the creation of computers and other related devices.
+timer1: is one of the microcontroller's two timers. Both timers and counters can be employed with them.

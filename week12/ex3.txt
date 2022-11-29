@@ -1,0 +1,10 @@
+The available shortcuts:
+p+e--> I passed the Exam
+c+a+p--> Get some cappuccino!
+q+w--> Good
+ca“Get some cappuccino!
+pca“Get some cappuccino!
+ppI passed the Exam!
+eqGood
+Good
+wGood
