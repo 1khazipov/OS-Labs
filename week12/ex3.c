@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-int main(void) {
+int main() {
     printf("The available shortcuts:\np+e--> I passed the Exam\nc+a+p--> Get some cappuccino!\nq+w--> Good\n");
     int array[100];
     char *d = "/dev/input/by-path/platform-i8042-serio-0-event-kbd";
