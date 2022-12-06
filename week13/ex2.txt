@@ -1,0 +1,1 @@
+3 ways of handling deadlock: recovery, prevention, and avoidance.
