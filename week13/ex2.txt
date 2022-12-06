@@ -1,1 +1,15 @@
 3 ways of handling deadlock: recovery, prevention, and avoidance.
+
+Recovery: the operating system breaks the impasse
+before attempting to make things right.
+The only options are to warn the user, kill the process
+(which is contributing to the stalemate), or replace the resource. 
+
+Prevention: solving the problem by preventing one of
+the four necessary deadlock conditions.
+Every disease has a unique method of prevention. 
+
+Avoidance: is the best because it avoids deadlock
+and does not limit resources as much as prevention.
+This approach avoids deadlock by using algorithms
+to guarantee that the system is always in a safe state. 
